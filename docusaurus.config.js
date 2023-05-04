@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Rachel1771', // Usually your GitHub org/user name.
+  projectName: 'Rachel1771.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -45,17 +45,18 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 
+          'https://github.com/Rachel1771/Rachel1771.github.io',
         },
-        blog: {
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
-          showReadingTime: false,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // blog: {
+        //   remarkPlugins: [math],
+        //   rehypePlugins: [katex],
+        //   showReadingTime: false,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //   'https://github.com/Rachel1771/Rachel1771.github.io',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
