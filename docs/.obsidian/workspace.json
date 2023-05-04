@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "9b25bbf5f1a8c6ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb054c9f4a7c96b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "762913fab8ad9587",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/1-部署Docsaururs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51202279dc927249",
+    "type": "split",
+    "children": [
+      {
+        "id": "01821068018542f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1b1081564359f4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "07550fd5753e265e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "687d9aece4262208",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "de50be8dc86d55a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "657324fe3b81dc98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c88a400652968a80",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web/1-部署Docsaururs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aa5af89aecb82539",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Web/1-部署Docsaururs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fad9127ced766b3d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7f65f6a7d7426ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Web/1-部署Docsaururs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "a1b1081564359f4d",
+  "lastOpenFiles": [
+    "Web/intro.md",
+    "Web/1-部署Docsaururs.md",
+    "Math/高数/1-测试.md",
+    "Foundation/intro.md",
+    "English/intro.md"
+  ]
+}
