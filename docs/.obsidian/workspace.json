@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8400b2f90396ea53",
+        "id": "dc078c7d70b9e9e4",
         "type": "tabs",
         "children": [
           {
-            "id": "bd84501134dc39aa",
+            "id": "e752908a3bd13474",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Foundation/数据结构/1-数据结构基础知识.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Foundation/数据结构/1-数据结构基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Foundation/数据结构/1-数据结构基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Foundation/数据结构/1-数据结构基础知识.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a1b1081564359f4d",
+  "active": "e752908a3bd13474",
   "lastOpenFiles": [
+    "English/每日翻译/2-2023-05-07.md",
     "intro/index.html",
     "intro",
     "Web/部署Docsaururs/index.html",
@@ -151,10 +160,8 @@
     "Math/高数/测试",
     "Math/intro/index.html",
     "Math/intro",
-    "Foundation/数据结构/数据结构基础知识/index.html",
     "Foundation/数据结构/1-数据结构基础知识.md",
     "Foundation/imgs/算法复杂度对比图.png",
-    "English/每日翻译/2-2023-0507.md",
     "English/每日翻译/1-2023-05-06.md",
     "[百度网盘.md",
     "Math/高数/1-测试.md",
