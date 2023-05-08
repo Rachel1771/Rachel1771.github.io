@@ -10,7 +10,7 @@ GitHub Pages 是由 GitHub 提供的静态网站托管服务。它允许用户�
 
 ### 2.本地连接
 打开本地写好的项目终端进行远程连接仓库。
-```
+``` shell
 git init
 git add .
 git remote add origin "你的仓库地址"
@@ -20,7 +20,7 @@ git push -u origin main
 上述就是将你的代码远程上传到远程仓库了
 ### 3.打包部署
 本地首先要进行配置，将你的Docsaururs配置文件进行修改，将config配置中的代码段修改
-```
+```js
 url: 'https://username.github.io',
 
 baseUrl: '/',
@@ -29,12 +29,12 @@ baseUrl: '/',
 改为自己的仓库地址所对应的那个名称就好，这也是部署后的访问地址。
 
 执行
-```
+```shell
 npm  run build
 git checkout -b gh-pages
 xcopy /E/Y build .
 rmdir /S /Q build
-git add build
+git add .
 git commit -m "Deploy Docusaurus to GitHub Pages" 
 git push origin gh-pages
 ```
@@ -47,7 +47,7 @@ pages->Branch设置为gh-pages分支来作为你的pages读取静态文件的地
 ### 1.云服务
 自行购买云服务器和域名，然后对域名进行解析，同时在服务器中下载Nginx并且进行配置。
 在Nginx配置文件Nginx.conf中对你的域名和端口进行配置。例如
-```
+```js
 user nginx;
 worker_processes auto;
 error_log /var/log/nginx/error.log;
@@ -90,7 +90,7 @@ http {
 通过上述配置好你的Nginx。
 ### 2.项目配置Action自动化脚本
 在项目根目录下创建文件夹.github/workflows，并且在里面创建nodejs.yml文件，进行自动化部署的配置。
-```
+```js
 name: FTP Deploy
 
   
@@ -160,7 +160,7 @@ jobs:
 
 接下来创建一个简单的.git-ftp-include文件
 加入代码：
-```
+``` js
 !build/
 ```
 

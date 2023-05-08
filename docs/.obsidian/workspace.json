@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md",
+                "file": "Web/1-部署Docsaururs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md",
+                "file": "Web/1-部署Docsaururs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md",
+                "file": "Web/1-部署Docsaururs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md"
+                "file": "Web/1-部署Docsaururs.md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "e752908a3bd13474",
   "lastOpenFiles": [
+    "English/每日翻译/3-2023-05-08/index.html",
+    "English/每日翻译/3-2023-05-08",
+    "English/每日翻译/3-2023-05-08.md",
+    "English/每日翻译/2-2023-05-07.md",
+    "English/每日翻译/1-2023-05-06.md",
+    "Foundation/数据结构/1-数据结构基础知识.md",
     "English/每日翻译/2-2023-05-07/index.html",
     "English/每日翻译/2-2023-05-07",
-    "English/每日翻译/2-2023-05-07.md",
     "intro/index.html",
     "intro",
     "Web/部署Docsaururs/index.html",
@@ -159,11 +164,7 @@
     "Web/intro",
     "Web/1-部署Docsaururs.md",
     "Math/高数/测试/index.html",
-    "Math/高数/测试",
-    "Math/intro/index.html",
-    "Foundation/数据结构/1-数据结构基础知识.md",
     "Foundation/imgs/算法复杂度对比图.png",
-    "English/每日翻译/1-2023-05-06.md",
     "[百度网盘.md",
     "Math/高数/1-测试.md",
     "7F9185BE.png",
