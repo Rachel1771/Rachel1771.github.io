@@ -11,12 +11,8 @@
             "id": "bd84501134dc39aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Foundation/数据结构/1-数据结构基础知识.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,23 +138,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bd84501134dc39aa",
+  "active": "a1b1081564359f4d",
   "lastOpenFiles": [
-    "[百度网盘.md",
-    "Foundation/数据结构/1-数据结构基础知识.md",
-    "Foundation/imgs/算法复杂度对比图.png",
-    "Math/高数/1-测试.md",
-    "Foundation/imgs",
-    "未命名",
-    "7F9185BE.png",
-    "Foundation/数据结构",
-    "Foundation/intro.md",
-    "English/每日翻译/2-2023-0507.md",
-    "English/每日翻译/1-2023-05-06.md",
-    "未命名.md",
-    "Web/1-部署Docsaururs.md",
+    "intro/index.html",
+    "intro",
     "Web/部署Docsaururs/index.html",
     "Web/部署Docsaururs",
+    "Web/intro/index.html",
+    "Web/intro",
+    "Web/1-部署Docsaururs.md",
+    "Math/高数/测试/index.html",
+    "Math/高数/测试",
+    "Math/intro/index.html",
+    "Math/intro",
+    "Foundation/数据结构/1-数据结构基础知识.md",
+    "Foundation/数据结构",
+    "Foundation/imgs/算法复杂度对比图.png",
+    "English/每日翻译/2-2023-0507.md",
+    "English/每日翻译/1-2023-05-06.md",
+    "[百度网盘.md",
+    "Math/高数/1-测试.md",
+    "7F9185BE.png",
+    "Foundation/intro.md",
+    "未命名.md",
     "Web/intro.md",
     "English/intro.md"
   ]
