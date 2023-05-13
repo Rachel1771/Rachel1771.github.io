@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc078c7d70b9e9e4",
+        "id": "86691f24ad1f104a",
         "type": "tabs",
         "children": [
           {
-            "id": "e752908a3bd13474",
+            "id": "9222ae2deddd0be0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/每日翻译/6-2023-05-12.md",
+                "file": "Foundation/course/计算机体系结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/每日翻译/6-2023-05-12.md",
+                "file": "Foundation/course/计算机体系结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/每日翻译/6-2023-05-12.md",
+                "file": "Foundation/course/计算机体系结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English/每日翻译/6-2023-05-12.md"
+                "file": "Foundation/course/计算机体系结构.md"
               }
             }
           }
@@ -146,29 +146,35 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e752908a3bd13474",
+  "active": "9222ae2deddd0be0",
   "lastOpenFiles": [
+    "Foundation/course/计算机体系结构/index.html",
+    "Foundation/course/计算机体系结构",
+    "Foundation/imgs/算法复杂度对比图.png",
+    "Foundation/imgs/others/编码3.png",
+    "Foundation/imgs/others/编码2.png",
+    "Foundation/imgs/others/题目1.png",
+    "Foundation/imgs/others/编码1.png",
+    "Foundation/imgs/others/答案一.png",
+    "Foundation/imgs/others",
+    "Foundation/imgs",
+    "Foundation/数据结构/1-数据结构基础知识.md",
+    "Foundation/course/计算机体系结构.md",
+    "English/每日翻译/6-2023-05-12.md",
+    "Foundation/course",
+    "Foundation/imgs/新建文件夹",
     "English/每日翻译/6-2023-05-12/index.html",
     "English/每日翻译/6-2023-05-12",
     "English/每日翻译/5-2023-05-11/index.html",
     "English/每日翻译/5-2023-05-11",
     "English/每日翻译/4-2023-05-09/index.html",
-    "English/每日翻译/4-2023-05-09",
     "English/每日翻译/5-2023-05-11.md",
-    "English/每日翻译/6-2023-05-12.md",
     "071A8E79.png",
     "English/每日翻译/4-2023-05-09.md",
-    "English/每日翻译/4-2026-05-09/index.html",
-    "English/每日翻译/4-2026-05-09",
     "English/每日翻译/3-2023-05-08.md",
     "Web/1-部署Docsaururs.md",
-    "English/每日翻译/3-2023-05-08/index.html",
-    "English/每日翻译/3-2023-05-08",
     "English/每日翻译/2-2023-05-07.md",
     "English/每日翻译/1-2023-05-06.md",
-    "Foundation/数据结构/1-数据结构基础知识.md",
-    "English/每日翻译/2-2023-05-07/index.html",
-    "Foundation/imgs/算法复杂度对比图.png",
     "[百度网盘.md",
     "Math/高数/1-测试.md",
     "7F9185BE.png",
