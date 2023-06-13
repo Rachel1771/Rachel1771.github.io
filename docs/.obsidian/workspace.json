@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5787274c0cd4ec55",
+        "id": "8305e894d1383f33",
         "type": "tabs",
         "children": [
           {
-            "id": "6b880ea37f72ac67",
+            "id": "bcc79a17a0fddef0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/每日翻译/7-2023-06-04.md",
+                "file": "Foundation/数据结构/算法/1.KMP定位子串.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/每日翻译/7-2023-06-04.md",
+                "file": "Foundation/数据结构/算法/1.KMP定位子串.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/每日翻译/7-2023-06-04.md",
+                "file": "Foundation/数据结构/算法/1.KMP定位子串.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English/每日翻译/7-2023-06-04.md"
+                "file": "Foundation/数据结构/算法/1.KMP定位子串.md"
               }
             }
           }
@@ -146,12 +146,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6b880ea37f72ac67",
+  "active": "bcc79a17a0fddef0",
   "lastOpenFiles": [
+    "Foundation/数据结构/算法/KMP定位子串/index.html",
+    "Foundation/数据结构/算法/KMP定位子串",
+    "()/index.html",
+    "()",
+    "().md",
+    "Foundation/数据结构/算法/1.KMP定位子串.md",
+    "English/每日翻译/1-2023-05-06.md",
+    "Foundation/course/计算机体系结构.md",
+    "Foundation/数据结构/1-数据结构基础知识.md",
+    "English/每日翻译/7-2023-06-04.md",
+    "Foundation/数据结构/算法",
+    "未命名",
     "English/每日翻译/7-2023-06-04/index.html",
     "English/每日翻译/7-2023-06-04",
-    "English/每日翻译/1-2023-05-06.md",
-    "English/每日翻译/7-2023-06-04.md",
     "English/每日翻译/3-2023-05-08.md",
     "English/每日翻译/5-2023-05-11.md",
     "English/每日翻译/6-2023-05-12.md",
@@ -160,22 +170,14 @@
     "Web/软件工程课设/接口文档",
     "Web/软件工程课设.md",
     "Web/软件工程课设",
-    "Foundation/course/计算机体系结构.md",
     "Math/高数/1-测试.md",
     "Pasted image 20230514104249.png",
-    "Foundation/course/计算机体系结构/index.html",
-    "Foundation/course/计算机体系结构",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/编码3.png",
     "Foundation/imgs/others/编码2.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/编码1.png",
     "Foundation/imgs/others/答案一.png",
-    "Foundation/imgs/others",
-    "Foundation/imgs",
-    "Foundation/数据结构/1-数据结构基础知识.md",
-    "Foundation/course",
-    "Foundation/imgs/新建文件夹",
     "071A8E79.png",
     "English/每日翻译/4-2023-05-09.md",
     "Web/1-部署Docsaururs.md",
