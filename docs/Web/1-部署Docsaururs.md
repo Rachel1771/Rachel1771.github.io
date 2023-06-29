@@ -12,8 +12,8 @@ GitHub Pages 是由 GitHub 提供的静态网站托管服务。它允许用户�
 打开本地写好的项目终端进行远程连接仓库。
 ``` shell
 git init
-git add .
 git remote add origin "你的仓库地址"
+git add .
 git commit -m"提交信息"
 git push -u origin main
 ```
