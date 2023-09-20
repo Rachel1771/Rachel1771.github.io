@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd90a07fb58f859b",
+        "id": "1659ba69f735dbb4",
         "type": "tabs",
         "children": [
           {
-            "id": "b9b40f9f02b49aaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/1-部署Docsaururs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae9059b1c647c0b0",
+            "id": "cbb90c11f9b382aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6191043fbfa54a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/1-部署Docsaururs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,12 +159,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b9b40f9f02b49aaa",
+  "active": "6191043fbfa54a9d",
   "lastOpenFiles": [
+    "Foundation/数据结构/6-图的性质总结.md",
     "Foundation/数据结构/6-图.md",
-    "Foundation/数据结构/算法/1-KMP定位子串.md",
-    "Foundation/course/计算机体系结构.md",
+    "Foundation/数据结构/5-树、森林的性质总结.md",
     "Foundation/数据结构/0-数据结构基础知识.md",
+    "Foundation/数据结构/树、森林的性质总结.md",
+    "Foundation/数据结构/算法/1-KMP定位子串.md",
+    "Foundation/数据结构/未命名.md",
+    "Math/高数强化复盘/1.2023-07-15.md",
+    "Math/intro.md",
+    "Math/高数强化复盘",
+    "Web/1-部署Docsaururs.md",
+    "Foundation/course/计算机体系结构.md",
     "English/每日翻译/1-2023-05-06.md",
     "Foundation/数据结构/图",
     "未命名.md",
@@ -173,7 +182,6 @@
     "Foundation/imgs/others/答案一.png",
     "Foundation/imgs/others/编码2.png",
     "Foundation/imgs/others/编码1.png",
-    "Web/1-部署Docsaururs.md",
     "Foundation/数据结构/算法/KMP定位子串/index.html",
     "Foundation/数据结构/算法/KMP定位子串",
     "()/index.html",
@@ -188,7 +196,6 @@
     "English/每日翻译/5-2023-05-11.md",
     "English/每日翻译/6-2023-05-12.md",
     "Web/软件工程课设/接口文档.md",
-    "Web/软件工程课设/接口文档/index.html",
     "Web/软件工程课设.md",
     "Math/高数/1-测试.md",
     "Pasted image 20230514104249.png",
@@ -198,8 +205,6 @@
     "English/每日翻译/2-2023-05-07.md",
     "[百度网盘.md",
     "7F9185BE.png",
-    "Foundation/intro.md",
-    "Web/intro.md",
-    "English/intro.md"
+    "Foundation/intro.md"
   ]
 }
