@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/1-部署Docsaururs.md",
+                "file": "Foundation/计算机组成原理/2-数组表示和运算.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/1-部署Docsaururs.md",
+                "file": "Foundation/计算机组成原理/2-数组表示和运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/1-部署Docsaururs.md",
+                "file": "Foundation/计算机组成原理/2-数组表示和运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/1-部署Docsaururs.md"
+                "file": "Foundation/计算机组成原理/2-数组表示和运算.md"
               }
             }
           }
@@ -161,13 +161,17 @@
   },
   "active": "6191043fbfa54a9d",
   "lastOpenFiles": [
+    "Foundation/计算机组成原理/数组表示和运算/index.html",
+    "Foundation/计算机组成原理/数组表示和运算",
+    "Foundation/数据结构/7-内部排序算法.md",
+    "Foundation/数据结构/6-图的性质总结.md",
+    "Web/1-部署Docsaururs.md",
     "Math/高数强化复盘/1.2023-07-15/index.html",
     "Math/高数强化复盘/1.2023-07-15",
     "Foundation/数据结构/树、森林的性质总结/index.html",
     "Foundation/数据结构/树、森林的性质总结",
     "Foundation/数据结构/图的性质总结/index.html",
     "Foundation/数据结构/图的性质总结",
-    "Foundation/数据结构/6-图的性质总结.md",
     "Foundation/数据结构/6-图.md",
     "Foundation/数据结构/5-树、森林的性质总结.md",
     "Foundation/数据结构/0-数据结构基础知识.md",
@@ -177,7 +181,6 @@
     "Math/高数强化复盘/1.2023-07-15.md",
     "Math/intro.md",
     "Math/高数强化复盘",
-    "Web/1-部署Docsaururs.md",
     "Foundation/course/计算机体系结构.md",
     "English/每日翻译/1-2023-05-06.md",
     "Foundation/数据结构/图",
@@ -188,8 +191,6 @@
     "Foundation/imgs/others/答案一.png",
     "Foundation/imgs/others/编码2.png",
     "Foundation/imgs/others/编码1.png",
-    "Foundation/数据结构/算法/KMP定位子串/index.html",
-    "Foundation/数据结构/算法/KMP定位子串",
     "().md",
     "Foundation/数据结构/1-数据结构基础知识.md",
     "English/每日翻译/7-2023-06-04.md",
@@ -204,7 +205,6 @@
     "071A8E79.png",
     "English/每日翻译/4-2023-05-09.md",
     "English/每日翻译/2-2023-05-07.md",
-    "[百度网盘.md",
     "7F9185BE.png"
   ]
 }
