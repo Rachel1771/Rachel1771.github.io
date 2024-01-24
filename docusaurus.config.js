@@ -101,12 +101,12 @@ const config = {
         },
         //加入栏目在这里
         items: [
-          {
-            to: "/docs/Math/intro",
-            activeBasePath: '/docs/Math',
-            label: "Math",
-            position: "left",
-          },
+          // {
+          //   to: "/docs/Math/intro",
+          //   activeBasePath: '/docs/Math',
+          //   label: "Math",
+          //   position: "left",
+          // },
           
           {
             to: "/docs/Foundation/intro",
@@ -114,12 +114,12 @@ const config = {
             label: "Foundation",
             position: "left",
           },
-          {
-            to: "/docs/English/intro",
-            activeBasePath: '/docs/Web',
-            label: "English",
-            position: "left",
-          },
+          // {
+          //   to: "/docs/English/intro",
+          //   activeBasePath: '/docs/Web',
+          //   label: "English",
+          //   position: "left",
+          // },
           {
             to: "/docs/Web/intro",
             activeBasePath: '/docs/Web',

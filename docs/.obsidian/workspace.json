@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1659ba69f735dbb4",
+        "id": "5fba3bc8e1e5e3a6",
         "type": "tabs",
         "children": [
           {
-            "id": "cbb90c11f9b382aa",
+            "id": "675698d736383775",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Foundation/数据结构/算法/1-KMP定位子串.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6191043fbfa54a9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Foundation/计算机组成原理/2-数组表示和运算.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Foundation/计算机组成原理/2-数组表示和运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Foundation/计算机组成原理/2-数组表示和运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Foundation/计算机组成原理/2-数组表示和运算.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,8 +138,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6191043fbfa54a9d",
+  "active": "a1b1081564359f4d",
   "lastOpenFiles": [
+    "Foundation/计算机组成原理/2-数组表示和运算.md",
+    "Foundation/course/计算机体系结构.md",
+    "English/每日翻译/7-2023-06-04.md",
+    "English/每日翻译/5-2023-05-11.md",
+    "English/每日翻译/4-2023-05-09.md",
+    "English/每日翻译/2-2023-05-07.md",
+    "English/每日翻译/1-2023-05-06.md",
+    "Foundation/数据结构/算法/1-KMP定位子串.md",
+    "Foundation/数据结构/5-树、森林的性质总结.md",
+    "Foundation/数据结构/8-几种奇怪恶心的树.md",
     "Foundation/计算机组成原理/数组表示和运算/index.html",
     "Foundation/计算机组成原理/数组表示和运算",
     "Foundation/数据结构/7-内部排序算法.md",
@@ -173,19 +162,14 @@
     "Foundation/数据结构/图的性质总结/index.html",
     "Foundation/数据结构/图的性质总结",
     "Foundation/数据结构/6-图.md",
-    "Foundation/数据结构/5-树、森林的性质总结.md",
     "Foundation/数据结构/0-数据结构基础知识.md",
     "Foundation/数据结构/树、森林的性质总结.md",
-    "Foundation/数据结构/算法/1-KMP定位子串.md",
     "Foundation/数据结构/未命名.md",
     "Math/高数强化复盘/1.2023-07-15.md",
     "Math/intro.md",
     "Math/高数强化复盘",
-    "Foundation/course/计算机体系结构.md",
-    "English/每日翻译/1-2023-05-06.md",
     "Foundation/数据结构/图",
     "未命名.md",
-    "未命名",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/答案一.png",
@@ -193,18 +177,13 @@
     "Foundation/imgs/others/编码1.png",
     "().md",
     "Foundation/数据结构/1-数据结构基础知识.md",
-    "English/每日翻译/7-2023-06-04.md",
     "English/每日翻译/3-2023-05-08.md",
-    "English/每日翻译/5-2023-05-11.md",
     "English/每日翻译/6-2023-05-12.md",
     "Web/软件工程课设/接口文档.md",
     "Web/软件工程课设.md",
-    "Math/高数/1-测试.md",
     "Pasted image 20230514104249.png",
     "Foundation/imgs/others/编码3.png",
     "071A8E79.png",
-    "English/每日翻译/4-2023-05-09.md",
-    "English/每日翻译/2-2023-05-07.md",
     "7F9185BE.png"
   ]
 }
