@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fba3bc8e1e5e3a6",
+        "id": "04da7003ff467dbc",
         "type": "tabs",
         "children": [
           {
-            "id": "675698d736383775",
+            "id": "a202334a524422a3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5
+    "width": 217.5
   },
   "right": {
     "id": "de50be8dc86d55a0",
@@ -138,8 +138,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a1b1081564359f4d",
+  "active": "a202334a524422a3",
   "lastOpenFiles": [
+    "Math/高数强化复盘/1.2023-07-15.md",
+    "Web/Redis/1-Redis安装&&十大数据.md",
+    "Web/Redis/Redis安装&&十大数据/index.html",
+    "Web/Redis/Redis安装&&十大数据",
+    "Foundation/数据结构/5-树、森林的性质总结.md",
+    "Foundation/数据结构/0-数据结构基础知识.md",
+    "intro.md",
+    "Foundation/数据结构/6-图的性质总结.md",
+    "Web/Redis",
+    "Web/未命名.md",
     "Foundation/计算机组成原理/2-数组表示和运算.md",
     "Foundation/course/计算机体系结构.md",
     "English/每日翻译/7-2023-06-04.md",
@@ -148,27 +158,20 @@
     "English/每日翻译/2-2023-05-07.md",
     "English/每日翻译/1-2023-05-06.md",
     "Foundation/数据结构/算法/1-KMP定位子串.md",
-    "Foundation/数据结构/5-树、森林的性质总结.md",
     "Foundation/数据结构/8-几种奇怪恶心的树.md",
     "Foundation/计算机组成原理/数组表示和运算/index.html",
     "Foundation/计算机组成原理/数组表示和运算",
     "Foundation/数据结构/7-内部排序算法.md",
-    "Foundation/数据结构/6-图的性质总结.md",
     "Web/1-部署Docsaururs.md",
     "Math/高数强化复盘/1.2023-07-15/index.html",
     "Math/高数强化复盘/1.2023-07-15",
     "Foundation/数据结构/树、森林的性质总结/index.html",
     "Foundation/数据结构/树、森林的性质总结",
     "Foundation/数据结构/图的性质总结/index.html",
-    "Foundation/数据结构/图的性质总结",
     "Foundation/数据结构/6-图.md",
-    "Foundation/数据结构/0-数据结构基础知识.md",
     "Foundation/数据结构/树、森林的性质总结.md",
     "Foundation/数据结构/未命名.md",
-    "Math/高数强化复盘/1.2023-07-15.md",
     "Math/intro.md",
-    "Math/高数强化复盘",
-    "Foundation/数据结构/图",
     "未命名.md",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
@@ -177,10 +180,6 @@
     "Foundation/imgs/others/编码1.png",
     "().md",
     "Foundation/数据结构/1-数据结构基础知识.md",
-    "English/每日翻译/3-2023-05-08.md",
-    "English/每日翻译/6-2023-05-12.md",
-    "Web/软件工程课设/接口文档.md",
-    "Web/软件工程课设.md",
     "Pasted image 20230514104249.png",
     "Foundation/imgs/others/编码3.png",
     "071A8E79.png",
