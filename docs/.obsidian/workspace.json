@@ -11,8 +11,12 @@
             "id": "a202334a524422a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Web/Redis/2-Redis 持久化.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 217.5,
+    "collapsed": true
   },
   "right": {
     "id": "de50be8dc86d55a0",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web/Redis/2-Redis 持久化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Web/Redis/2-Redis 持久化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web/Redis/2-Redis 持久化.md"
+              }
             }
           }
         ]
@@ -140,8 +149,11 @@
   },
   "active": "a202334a524422a3",
   "lastOpenFiles": [
-    "Math/高数强化复盘/1.2023-07-15.md",
+    "Pasted image 20240220183243.png",
     "Web/Redis/1-Redis安装&&十大数据.md",
+    "Web/Redis/2-Redis 持久化.md",
+    "Web/1-部署Docsaururs.md",
+    "Math/高数强化复盘/1.2023-07-15.md",
     "Web/Redis/Redis安装&&十大数据/index.html",
     "Web/Redis/Redis安装&&十大数据",
     "Foundation/数据结构/5-树、森林的性质总结.md",
@@ -162,7 +174,6 @@
     "Foundation/计算机组成原理/数组表示和运算/index.html",
     "Foundation/计算机组成原理/数组表示和运算",
     "Foundation/数据结构/7-内部排序算法.md",
-    "Web/1-部署Docsaururs.md",
     "Math/高数强化复盘/1.2023-07-15/index.html",
     "Math/高数强化复盘/1.2023-07-15",
     "Foundation/数据结构/树、森林的性质总结/index.html",
@@ -179,7 +190,6 @@
     "Foundation/imgs/others/编码2.png",
     "Foundation/imgs/others/编码1.png",
     "().md",
-    "Foundation/数据结构/1-数据结构基础知识.md",
     "Pasted image 20230514104249.png",
     "Foundation/imgs/others/编码3.png",
     "071A8E79.png",
