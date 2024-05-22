@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "04da7003ff467dbc",
+        "id": "d5d9e9a8fab78240",
         "type": "tabs",
         "children": [
           {
-            "id": "a202334a524422a3",
+            "id": "c5eac38685452c4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foundation/数据库/1-数据库系统概论复试.md",
+                "file": "Math/DeepLearning/1-图像分割评价指标.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 200
   },
   "right": {
     "id": "de50be8dc86d55a0",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Foundation/数据库/1-数据库系统概论复试.md",
+                "file": "Math/DeepLearning/1-图像分割评价指标.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Foundation/数据库/1-数据库系统概论复试.md",
+                "file": "Math/DeepLearning/1-图像分割评价指标.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Foundation/数据库/1-数据库系统概论复试.md"
+                "file": "Math/DeepLearning/1-图像分割评价指标.md"
               }
             }
           }
@@ -146,18 +146,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a202334a524422a3",
+  "active": "a1b1081564359f4d",
   "lastOpenFiles": [
+    "Math/DeepLearning/图像分割评价指标/index.html",
+    "Math/DeepLearning/图像分割评价指标",
+    "Foundation/数据库/1-数据库系统概论复试.md",
+    "Foundation/计算机组成原理/2-数组表示和运算.md",
+    "Math/DeepLearning/1-图像分割评价指标.md",
+    "Pasted image 20240220183243.png",
+    "Math/DeepLearning",
     "Foundation/数据库/数据库系统概论复试/index.html",
     "Foundation/数据库/数据库系统概论复试",
     "Foundation/数据结构/0-数据结构基础知识.md",
-    "Foundation/数据库/1-数据库系统概论复试.md",
     "Foundation/数据库",
     "Foundation/新建文件夹",
     "Web/Redis/2-Redis 持久化.md",
     "Web/Redis/Redis 持久化/index.html",
     "Web/Redis/Redis 持久化",
-    "Pasted image 20240220183243.png",
     "Web/Redis/1-Redis安装&&十大数据.md",
     "Web/1-部署Docsaururs.md",
     "Math/高数强化复盘/1.2023-07-15.md",
@@ -166,9 +171,7 @@
     "Foundation/数据结构/5-树、森林的性质总结.md",
     "intro.md",
     "Foundation/数据结构/6-图的性质总结.md",
-    "Web/Redis",
     "Web/未命名.md",
-    "Foundation/计算机组成原理/2-数组表示和运算.md",
     "Foundation/course/计算机体系结构.md",
     "English/每日翻译/7-2023-06-04.md",
     "English/每日翻译/5-2023-05-11.md",
@@ -177,14 +180,11 @@
     "English/每日翻译/1-2023-05-06.md",
     "Foundation/数据结构/算法/1-KMP定位子串.md",
     "Foundation/数据结构/8-几种奇怪恶心的树.md",
-    "Foundation/计算机组成原理/数组表示和运算/index.html",
-    "Foundation/计算机组成原理/数组表示和运算",
     "Foundation/数据结构/7-内部排序算法.md",
     "Foundation/数据结构/6-图.md",
     "Foundation/数据结构/树、森林的性质总结.md",
     "Foundation/数据结构/未命名.md",
     "Math/intro.md",
-    "未命名.md",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/答案一.png",
