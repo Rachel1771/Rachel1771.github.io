@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/DeepLearning/1-图像分割评价指标.md",
+                "file": "Web/1-部署Docsaururs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/DeepLearning/1-图像分割评价指标.md",
+                "file": "Web/1-部署Docsaururs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/DeepLearning/1-图像分割评价指标.md",
+                "file": "Web/1-部署Docsaururs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/DeepLearning/1-图像分割评价指标.md"
+                "file": "Web/1-部署Docsaururs.md"
               }
             }
           }
@@ -146,31 +146,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a1b1081564359f4d",
+  "active": "c5eac38685452c4e",
   "lastOpenFiles": [
-    "Math/DeepLearning/图像分割评价指标/index.html",
-    "Math/DeepLearning/图像分割评价指标",
+    "Web/intro.md",
+    "Web/1-部署Docsaururs.md",
     "Foundation/数据库/1-数据库系统概论复试.md",
+    "Foundation/数据结构/8-几种奇怪恶心的树.md",
+    "Foundation/数据结构/9-查找.md",
+    "Foundation/数据结构/7-内部排序算法.md",
+    "Foundation/数据结构/6-图的性质总结.md",
+    "Foundation/数据结构/5-树、森林的性质总结.md",
+    "Foundation/数据结构/0-数据结构基础知识.md",
     "Foundation/计算机组成原理/2-数组表示和运算.md",
     "Math/DeepLearning/1-图像分割评价指标.md",
+    "Math/DeepLearning/图像分割评价指标/index.html",
+    "Math/DeepLearning/图像分割评价指标",
     "Pasted image 20240220183243.png",
     "Math/DeepLearning",
     "Foundation/数据库/数据库系统概论复试/index.html",
     "Foundation/数据库/数据库系统概论复试",
-    "Foundation/数据结构/0-数据结构基础知识.md",
     "Foundation/数据库",
     "Foundation/新建文件夹",
     "Web/Redis/2-Redis 持久化.md",
     "Web/Redis/Redis 持久化/index.html",
     "Web/Redis/Redis 持久化",
     "Web/Redis/1-Redis安装&&十大数据.md",
-    "Web/1-部署Docsaururs.md",
     "Math/高数强化复盘/1.2023-07-15.md",
     "Web/Redis/Redis安装&&十大数据/index.html",
-    "Web/Redis/Redis安装&&十大数据",
-    "Foundation/数据结构/5-树、森林的性质总结.md",
     "intro.md",
-    "Foundation/数据结构/6-图的性质总结.md",
     "Web/未命名.md",
     "Foundation/course/计算机体系结构.md",
     "English/每日翻译/7-2023-06-04.md",
@@ -179,12 +182,9 @@
     "English/每日翻译/2-2023-05-07.md",
     "English/每日翻译/1-2023-05-06.md",
     "Foundation/数据结构/算法/1-KMP定位子串.md",
-    "Foundation/数据结构/8-几种奇怪恶心的树.md",
-    "Foundation/数据结构/7-内部排序算法.md",
     "Foundation/数据结构/6-图.md",
     "Foundation/数据结构/树、森林的性质总结.md",
     "Foundation/数据结构/未命名.md",
-    "Math/intro.md",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/答案一.png",
