@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c45e1c38669c0b27",
+        "id": "16d2fc06197c232b",
         "type": "tabs",
         "children": [
           {
-            "id": "92f7abc710e865fe",
+            "id": "13306571346c529b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Foundation/2-数据结构/9-查找.md",
+                "file": "docs/Work/3-拼板分板配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5026054382324
+    "width": 274.5026054382324
   },
   "right": {
     "id": "16cf7c337be55ada",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Foundation/2-数据结构/9-查找.md",
+                "file": "docs/Work/3-拼板分板配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Foundation/2-数据结构/9-查找.md",
+                "file": "docs/Work/3-拼板分板配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Foundation/2-数据结构/9-查找.md"
+                "file": "docs/Work/3-拼板分板配置.md"
               }
             }
           }
@@ -146,29 +146,40 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "92f7abc710e865fe",
+  "active": "40bed2b322f2f05e",
   "lastOpenFiles": [
+    "docs/Work/重构看板/index.html",
+    "docs/Work/重构看板",
+    "docs/Work/拼板分板配置/index.html",
+    "docs/Work/拼板分板配置",
+    "docs/Work/PDF解析/index.html",
+    "docs/Work/PDF解析",
     "docs/Web/部署Docaururs/部署Docsaururs/index.html",
     "docs/Web/部署Docaururs/部署Docsaururs",
     "docs/Web/部署Docaururs",
     "docs/Web/软件工程课设/接口文档/index.html",
     "docs/Web/软件工程课设/接口文档",
-    "docs/Web/软件工程课设",
-    "docs/Web/Redis/Redis安装&&十大数据/index.html",
-    "docs/Web/Redis/Redis 持久化/index.html",
-    "docs/Web/Redis/Redis安装&&十大数据",
-    "docs/Web/Redis/Redis 持久化",
-    "docs/Web/Redis",
+    "build/img/docusaurus.png",
+    "build/img/docusaurus-social-card.jpg",
+    "build/img/4.svg",
+    "build/img/3.svg",
+    "build/img/2.svg",
+    "node_modules/json-schema-traverse/README.md",
+    "docs/intro.md",
+    "docs/Web/4.Docker/1-Docker入门.md",
+    "docs/Web/1.部署Docaururs/1-部署Docsaururs.md",
+    "docs/Work/3-拼板分板配置.md",
+    "node_modules/@types/range-parser/README.md",
+    "node_modules/@types/parse-json/README.md",
+    "docs/Work/2-重构看板.md",
+    "docs/Work/1-PDF解析.md",
+    "docs/Pasted image 20240220183243.png",
+    "Pasted image 20240826173755.png",
+    "docs/Foundation/2.数据结构/2.1-算法/1-KMP定位子串.md",
+    "docs/Foundation/2.数据结构/9-查找.md",
     "build/img/1.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/logo.svg",
-    "build/img/docusaurus.png",
-    "build/img/docusaurus-social-card.jpg",
-    "build/img/3.svg",
-    "build/img/4.svg",
-    "build/img/2.svg",
     "node_modules/postcss-modules-values/README.md",
     "node_modules/postcss-modules-values/CHANGELOG.md",
     "node_modules/babel-plugin-polyfill-corejs3/core-js-compat/README.md",
@@ -182,17 +193,6 @@
     "node_modules/rxjs/CHANGELOG.md",
     "node_modules/lodash/release.md",
     "node_modules/webpack/README.md",
-    "node_modules/core-js/modules/README.md",
-    "node_modules/core-js-pure/modules/README.md",
-    "node_modules/mathjax/README.md",
-    "node_modules/core-js/web/README.md",
-    "node_modules/clean-css/README.md",
-    "node_modules/clean-css/History.md",
-    "node_modules/css-tree/README.md",
-    "node_modules/fork-ts-checker-webpack-plugin/CHANGELOG.md",
-    "node_modules/@easyops-cn/docusaurus-search-local/README.md",
-    "node_modules/@easyops-cn/docusaurus-search-local/CHANGELOG.md",
-    "node_modules/terser/README.md",
-    "node_modules/axios/UPGRADE_GUIDE.md"
+    "node_modules/core-js/modules/README.md"
   ]
 }
