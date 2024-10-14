@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "16d2fc06197c232b",
+        "id": "19a09ea39cdd6b13",
         "type": "tabs",
         "children": [
           {
-            "id": "13306571346c529b",
+            "id": "f693ac0f94a3f5e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Work/3-拼板分板配置.md",
+                "file": "docs/Work/6-电控栈位表&&钢刀.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5026054382324
+    "width": 257.5026054382324
   },
   "right": {
     "id": "16cf7c337be55ada",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Work/3-拼板分板配置.md",
+                "file": "docs/Work/6-电控栈位表&&钢刀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Work/3-拼板分板配置.md",
+                "file": "docs/Work/6-电控栈位表&&钢刀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Work/3-拼板分板配置.md"
+                "file": "docs/Work/6-电控栈位表&&钢刀.md"
               }
             }
           }
@@ -146,19 +146,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "40bed2b322f2f05e",
+  "active": "f693ac0f94a3f5e9",
   "lastOpenFiles": [
-    "docs/Work/重构看板/index.html",
-    "docs/Work/重构看板",
-    "docs/Work/拼板分板配置/index.html",
-    "docs/Work/拼板分板配置",
-    "docs/Work/PDF解析/index.html",
-    "docs/Work/PDF解析",
-    "docs/Web/部署Docaururs/部署Docsaururs/index.html",
-    "docs/Web/部署Docaururs/部署Docsaururs",
-    "docs/Web/部署Docaururs",
-    "docs/Web/软件工程课设/接口文档/index.html",
-    "docs/Web/软件工程课设/接口文档",
+    "docs/Work/5-清洗板.md",
+    "docs/Work/6-电控栈位表&&钢刀.md",
+    "docs/Work/研控报表组装/index.html",
+    "docs/Work/研控报表组装",
+    "docs/Work/清洗板/index.html",
+    "docs/Work/清洗板",
+    "assets/js/runtime~main.043c3355.js",
+    "assets/js/main.97f93838.js.LICENSE.txt",
+    "assets/js/main.97f93838.js",
+    "assets/js/ef892297.881de58c.js",
+    "assets/js/b91485a2.5d0787f1.js",
+    "assets/js/935f2afb.89fba140.js",
+    "docs/Work/4-研控报表组装.md",
+    "docs/Work/3-拼板分板配置.md",
     "build/img/docusaurus.png",
     "build/img/docusaurus-social-card.jpg",
     "build/img/4.svg",
@@ -168,7 +171,6 @@
     "docs/intro.md",
     "docs/Web/4.Docker/1-Docker入门.md",
     "docs/Web/1.部署Docaururs/1-部署Docsaururs.md",
-    "docs/Work/3-拼板分板配置.md",
     "node_modules/@types/range-parser/README.md",
     "node_modules/@types/parse-json/README.md",
     "docs/Work/2-重构看板.md",
@@ -191,8 +193,6 @@
     "node_modules/rxjs/README.md",
     "node_modules/rxjs/CODE_OF_CONDUCT.md",
     "node_modules/rxjs/CHANGELOG.md",
-    "node_modules/lodash/release.md",
-    "node_modules/webpack/README.md",
-    "node_modules/core-js/modules/README.md"
+    "node_modules/lodash/release.md"
   ]
 }
