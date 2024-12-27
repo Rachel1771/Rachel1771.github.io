@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/1-部署Docsaururs.md",
+                "file": "Web/3.Redis/1-Redis安装&&十大数据.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/1-部署Docsaururs.md",
+                "file": "Web/3.Redis/1-Redis安装&&十大数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/1-部署Docsaururs.md",
+                "file": "Web/3.Redis/1-Redis安装&&十大数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/1-部署Docsaururs.md"
+                "file": "Web/3.Redis/1-Redis安装&&十大数据.md"
               }
             }
+          },
+          {
+            "id": "658680861a1d558d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,11 +151,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5eac38685452c4e",
+  "active": "658680861a1d558d",
   "lastOpenFiles": [
+    "Work/锡膏后端/index.html",
+    "Work/锡膏后端",
+    "Work/拼板过站接口修改/index.html",
+    "Work/拼板过站接口修改",
     "Web/intro.md",
     "Web/1-部署Docsaururs.md",
     "Foundation/数据库/1-数据库系统概论复试.md",
@@ -168,11 +181,8 @@
     "Foundation/数据库",
     "Foundation/新建文件夹",
     "Web/Redis/2-Redis 持久化.md",
-    "Web/Redis/Redis 持久化/index.html",
-    "Web/Redis/Redis 持久化",
     "Web/Redis/1-Redis安装&&十大数据.md",
     "Math/高数强化复盘/1.2023-07-15.md",
-    "Web/Redis/Redis安装&&十大数据/index.html",
     "intro.md",
     "Web/未命名.md",
     "Foundation/course/计算机体系结构.md",
@@ -184,7 +194,6 @@
     "Foundation/数据结构/算法/1-KMP定位子串.md",
     "Foundation/数据结构/6-图.md",
     "Foundation/数据结构/树、森林的性质总结.md",
-    "Foundation/数据结构/未命名.md",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/答案一.png",
