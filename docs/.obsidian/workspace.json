@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "d5d9e9a8fab78240",
+        "id": "0e20bf2a45d2016b",
         "type": "tabs",
         "children": [
           {
-            "id": "c5eac38685452c4e",
+            "id": "4497247179537d20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/3.Redis/1-Redis安装&&十大数据.md",
+                "file": "Web/1.部署Docaururs/2-NoteBook的图片托管.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2-NoteBook的图片托管"
+            }
+          },
+          {
+            "id": "16029e845658fe9e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -85,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/3.Redis/1-Redis安装&&十大数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -102,10 +124,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/3.Redis/1-Redis安装&&十大数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
@@ -116,7 +139,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -124,9 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Web/3.Redis/1-Redis安装&&十大数据.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -134,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -155,8 +182,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "658680861a1d558d",
+  "active": "16029e845658fe9e",
   "lastOpenFiles": [
+    "Foundation/2.数据结构/5-树、森林的性质总结.md",
+    "Foundation/2.数据结构/6-图的性质总结.md",
+    "Foundation/2.数据结构/0-数据结构基础知识.md",
+    "Foundation/2.数据结构/2.1-算法/1-KMP定位子串.md",
+    "Foundation/1.计算机组成原理/2-数组表示和运算.md",
+    "Web/2.软件工程课设/接口文档.md",
+    "Web/1.部署Docaururs/2-NoteBook的图片托管.md",
+    "Web/1.部署Docaururs/1-部署Docsaururs.md",
+    "未命名.md",
+    "Web/3.Redis/1-Redis安装&&十大数据.md",
+    "2024-12-27.md",
+    "Pasted image 20240220183243.png",
     "Work/锡膏后端/index.html",
     "Work/锡膏后端",
     "Work/拼板过站接口修改/index.html",
@@ -174,26 +213,14 @@
     "Math/DeepLearning/1-图像分割评价指标.md",
     "Math/DeepLearning/图像分割评价指标/index.html",
     "Math/DeepLearning/图像分割评价指标",
-    "Pasted image 20240220183243.png",
     "Math/DeepLearning",
     "Foundation/数据库/数据库系统概论复试/index.html",
     "Foundation/数据库/数据库系统概论复试",
     "Foundation/数据库",
-    "Foundation/新建文件夹",
     "Web/Redis/2-Redis 持久化.md",
     "Web/Redis/1-Redis安装&&十大数据.md",
     "Math/高数强化复盘/1.2023-07-15.md",
     "intro.md",
-    "Web/未命名.md",
-    "Foundation/course/计算机体系结构.md",
-    "English/每日翻译/7-2023-06-04.md",
-    "English/每日翻译/5-2023-05-11.md",
-    "English/每日翻译/4-2023-05-09.md",
-    "English/每日翻译/2-2023-05-07.md",
-    "English/每日翻译/1-2023-05-06.md",
-    "Foundation/数据结构/算法/1-KMP定位子串.md",
-    "Foundation/数据结构/6-图.md",
-    "Foundation/数据结构/树、森林的性质总结.md",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/答案一.png",

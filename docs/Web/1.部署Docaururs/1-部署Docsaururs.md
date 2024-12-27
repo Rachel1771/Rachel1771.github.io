@@ -1,4 +1,4 @@
-# 2-部署Docsaururs
+# 1-部署Docsaururs
 # 两种方式部署
 ## 一、GitHubPages
 推荐采用这种方式进行部署，较为方便，采用GitHub提供的托管工具Githubpages进行静态页面部署。
