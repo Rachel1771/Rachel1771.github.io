@@ -1,17 +1,34 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const math = require('remark-math');
 const katex = require('rehype-katex');
+const rehypeKatex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Rachel NoteBook',
   tagline: 'To be better!',
   favicon: 'img/favicon.ico',
+  markdown:{
+    format: "detect"
+  },
 
+  // customFields: {
+  //   webpack: {
+  //     configure: (webpackConfig, { env, paths }) => {
+  //       webpackConfig.resolve.extensions.push('.ttf');
+  //       webpackConfig.module.rules.push({
+  //         test: /\.ttf$/,
+  //         use: ['file-loader'],
+  //         include: path.resolve(__dirname, 'static/fonts'),
+  //       });
+  //       return webpackConfig;
+  //     },
+  //   },
+  // },
   // Set the production url of your site here
   url: 'https://Rachel1771.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -111,7 +128,7 @@ const config = {
           {
             to: "/docs/Foundation/intro",
             activeBasePath: '/docs/Foundation',
-            label: "Foundation",
+            label: "学科基础",
             position: "left",
           },
           // {
@@ -123,7 +140,14 @@ const config = {
           {
             to: "/docs/Web/intro",
             activeBasePath: '/docs/Web',
-            label: "Web",
+            label: "Web开发",
+            position: "left",
+          },
+
+          {
+            to: "/docs/Math/intro",
+            activeBasePath: '/docs/Math',
+            label: "数学基础",
             position: "left",
           },
           
