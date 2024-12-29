@@ -47,8 +47,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['en', 'zh-Hans'],
   },
 
   presets: [
@@ -75,7 +75,11 @@ const config = {
         //   'https://github.com/Rachel1771/Rachel1771.github.io',
         // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/header.css'),
+            require.resolve('./src/css/fonts.css'),
+          ]
         },
       }),
     ],
@@ -110,24 +114,31 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      // 调整sidebar为可收回
+      docs: {
+        sidebar: {
+          hideable: true,
+        }
+      },
+      colorMode: { 
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
+      },
       navbar: {
         title: 'Rachel NoteBook',
         logo: {
           alt: 'My Site Logo',
           src: 'img/4.svg',
         },
-        //加入栏目在这里
+        // 2024-12-29修改布局
         items: [
-          // {
-          //   to: "/docs/Math/intro",
-          //   activeBasePath: '/docs/Math',
-          //   label: "Math",
-          //   position: "left",
-          // },
-          
           {
             to: "/docs/Foundation/intro",
-            activeBasePath: '/docs/Foundation',
+            // activeBasePath: '/docs/Foundation',
             label: "学科基础",
             position: "left",
           },
@@ -139,14 +150,14 @@ const config = {
           // },
           {
             to: "/docs/Web/intro",
-            activeBasePath: '/docs/Web',
+            // activeBasePath: '/docs/Web',
             label: "Web开发",
             position: "left",
           },
 
           {
             to: "/docs/Math/intro",
-            activeBasePath: '/docs/Math',
+            // activeBasePath: '/docs/Math',
             label: "数学基础",
             position: "left",
           },
@@ -160,6 +171,7 @@ const config = {
           },
           
         ],
+        
       },
       footer: {
         style: 'dark',
@@ -219,15 +231,5 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    stylesheets: [
-      {
-        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-        type: 'text/css',
-        integrity:
-          'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-        crossorigin: 'anonymous',
-      },
-    ],
 };
-
 module.exports = config;
