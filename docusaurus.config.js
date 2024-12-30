@@ -9,26 +9,30 @@ const rehypeKatex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  titleDelimiter: '-',
   title: 'Rachel NoteBook',
   tagline: 'To be better!',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
   markdown:{
     format: "detect"
   },
 
-  // customFields: {
-  //   webpack: {
-  //     configure: (webpackConfig, { env, paths }) => {
-  //       webpackConfig.resolve.extensions.push('.ttf');
-  //       webpackConfig.module.rules.push({
-  //         test: /\.ttf$/,
-  //         use: ['file-loader'],
-  //         include: path.resolve(__dirname, 'static/fonts'),
-  //       });
-  //       return webpackConfig;
-  //     },
-  //   },
-  // },
+  // redefine webpack
+  customFields: {
+    webpack: {
+      configure: (webpackConfig, { env, paths }) => {
+        webpackConfig.resolve.extensions.push('.ttf');
+        webpackConfig.module.rules.push({
+          test: /\.ttf$/,
+          use: ['file-loader'],
+          include: path.resolve(__dirname, 'static/fonts'),
+        });
+        return webpackConfig;
+      },
+    },
+  },
+
   // Set the production url of your site here
   url: 'https://Rachel1771.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -55,6 +59,7 @@ const config = {
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
+      /** @type {import rehypeSlug from 'rehype-slug'} */
       ({
         docs: {
           remarkPlugins: [math],
@@ -65,15 +70,16 @@ const config = {
           editUrl: 
           'https://github.com/Rachel1771/Rachel1771.github.io',
         },
-        // blog: {
-        //   remarkPlugins: [math],
-        //   rehypePlugins: [katex],
-        //   showReadingTime: false,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //   'https://github.com/Rachel1771/Rachel1771.github.io',
-        // },
+        blog: {
+          showReadingTime: true,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+          // showReadingTime: false,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          // editUrl:
+          // 'https://github.com/Rachel1771/Rachel1771.github.io',
+        },
         theme: {
           customCss: [
             require.resolve('./src/css/custom.css'),
@@ -120,6 +126,13 @@ const config = {
           hideable: true,
         }
       },
+      sidebar: {
+        // 配置每个栏目对应的侧边栏
+        '/docs/Foundation/': ['foundationSidebar'],
+        '/docs/Math/': ['mathSidebar'],
+        '/docs/Web/': ['webSidebar'],
+        '/docs/Work/': ['workSidebar'],
+      },
       colorMode: { 
         defaultMode: 'light',
         disableSwitch: true,
@@ -140,29 +153,21 @@ const config = {
             to: "/docs/Foundation/intro",
             // activeBasePath: '/docs/Foundation',
             label: "学科基础",
-            position: "left",
+            // position: "left",
           },
-          // {
-          //   to: "/docs/English/intro",
-          //   activeBasePath: '/docs/Web',
-          //   label: "English",
-          //   position: "left",
-          // },
           {
             to: "/docs/Web/intro",
             // activeBasePath: '/docs/Web',
             label: "Web开发",
-            position: "left",
+            // position: "left",
           },
 
           {
             to: "/docs/Math/intro",
             // activeBasePath: '/docs/Math',
             label: "数学基础",
-            position: "left",
+            // position: "left",
           },
-          
-
           {
             // href: 'https://github.com/facebook/docusaurus',
             href: 'https://github.com/Rachel1771',
