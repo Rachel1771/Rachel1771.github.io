@@ -119,7 +119,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: './static/img/docusaurus-social-card.jpg',
       // 调整sidebar为可收回
       docs: {
         sidebar: {
@@ -145,7 +145,7 @@ const config = {
         title: 'Rachel NoteBook',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/4.svg',
+          src: './static/img/4.svg',
         },
         // 2024-12-29修改布局
         items: [
