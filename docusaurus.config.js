@@ -12,7 +12,7 @@ const config = {
   titleDelimiter: '-',
   title: 'Rachel NoteBook',
   tagline: 'To be better!',
-  favicon: 'static/img/favicon.ico',
+  favicon: 'img/favicon.ico',
   trailingSlash: false,
   markdown:{
     format: "detect"
@@ -119,7 +119,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'static/img/docusaurus-social-card.jpg',
+      image: 'img/docusaurus-social-card.jpg',
       // 调整sidebar为可收回
       docs: {
         sidebar: {
@@ -145,7 +145,7 @@ const config = {
         title: 'Rachel NoteBook',
         logo: {
           alt: 'My Site Logo',
-          src: 'static/img/4.svg',
+          src: 'img/4.svg',
         },
         // 2024-12-29修改布局
         items: [
