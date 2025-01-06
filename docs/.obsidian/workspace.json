@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/5.JavaStudy/2-MyBatisPlus使用.md",
+                "file": "Math/1.机器学习/1-损失函数&学习率.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-MyBatisPlus使用"
+              "title": "1-损失函数&学习率"
             }
           }
         ]
@@ -172,19 +172,20 @@
   },
   "active": "ae57c536fb4618ae",
   "lastOpenFiles": [
-    "Web/5.JavaStudy/2-MyBatisPlus使用.md",
+    "Foundation/1.计算机组成原理/2-数组表示和运算.md",
+    "Foundation/2.数据结构/5-树、森林的性质总结.md",
+    "Math/2.深度学习/1-图像分割评价指标.md",
     "Math/1.机器学习/1-损失函数&学习率.md",
+    "Web/5.JavaStudy/2-MyBatisPlus使用.md",
     "Web/1.部署Docaururs/2-NoteBook的图片托管.md",
     "Web/3.Redis/1-Redis安装&&十大数据.md",
     "Web/1.部署Docaururs/1-部署Docsaururs.md",
     "Web/5.JavaStudy/1-Web国际化.md",
     "Web/intro.md",
     "Web/2.软件工程课设/接口文档.md",
-    "Foundation/2.数据结构/5-树、森林的性质总结.md",
     "Foundation/2.数据结构/6-图的性质总结.md",
     "Foundation/2.数据结构/0-数据结构基础知识.md",
     "Foundation/2.数据结构/2.1-算法/1-KMP定位子串.md",
-    "Foundation/1.计算机组成原理/2-数组表示和运算.md",
     "未命名.md",
     "2024-12-27.md",
     "Pasted image 20240220183243.png",
@@ -208,7 +209,6 @@
     "Foundation/数据库/数据库系统概论复试/index.html",
     "Foundation/数据库/数据库系统概论复试",
     "Foundation/数据库",
-    "Web/Redis/2-Redis 持久化.md",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/答案一.png",
