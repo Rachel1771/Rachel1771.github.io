@@ -4,33 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Quiet Thinker',
+    title: '安静的面壁者🧎',
     Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
-       A quiet boy often reflects on himself late at night. When bored, he thinks about where people come from and go. Occasionally, 
-       He will write articles about my thoughts and thoughts to enrich my every minute.
+       在夜深人静之时，面壁者常沉浸在对自身的深刻反思之中。
+       当感到无所事事之际，思索人类存在的起点与归宿，试图探索那日常经验的真理。
+       将这些结晶化作文字，记录下每一个思考的瞬间，以此来充实自己的生命，仿佛通过书写确认着自己的存在——思考的存在。
       </>
     ),
   },
   {
-    title: 'Focus on technologys',
+    title: '持续技术输入🔋',
     Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
-       A boy from GUET Computer Science, 
-       likes collaborating with colleagues to develop his pig brain,
-       who enjoys delving into computer technology and is passionate about mathematical modeling and websites.
+       一位来自GUET——CS的青年，乐于与同事协作，共同'打磨'他的'缸中之脑'，
+       通过团队合作来激发潜能。他热衷于深入研究计算机技术，对数学建模,Web,深度学习充满了激情，享受在这些领域中不断探索和学习的过程。
       </>
     ),
   },
   {
-    title: 'Urgent self-discipline',
+    title: '渴望真正自律💪',
     Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
-        Graduates who aspire to land in the postgraduate entrance examination 
-        need to have strict self-discipline and must succeed!
+        希望严格自律，它并非是外在强加给我们的束缚，而是源自内在理性的命令。
+        当我们遵循着理性的指引行动时，我们实际上是在听从自己最真实的声音，那个未被欲望和错误观念所蒙蔽的声音。
+        这样的行为，才是真正的自由——不是去做我们想做的事，而是去做我们应该做的事。
       </>
     ),
   },
