@@ -164,6 +164,12 @@ const config = {
                     // position: "left",
                 },
                 {
+                    to: "/docs/Work/intro",
+                    // activeBasePath: '/docs/Math',
+                    label: "打工手记",
+                    // position: "left",
+                },
+                {
                     // href: 'https://github.com/facebook/docusaurus',
                     href: 'https://github.com/Rachel1771',
                     label: 'GitHub',
