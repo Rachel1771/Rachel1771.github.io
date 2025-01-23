@@ -24,11 +24,11 @@
 
 原有的MyBatis，需要编写接口和mapper实现，手撸SQL实现数据库操作，在MyBatis-plus上，由于集成很多功能类，只需创建mapper接口文件，做好映射，就可以调用很多底层的CRUD方法，能够满足大多数功能场景。
 
-# 2.使用方法
+# 1.使用方法
 
 关于MyBatis-plus的详细配置参考官方文档：[配置](https://baomidou.com/getting-started/config/)
 
-## 2.1 构建实体映射
+## 1.1.构建实体映射
 
 首先需要创建数据库映射的实体类，加上@Entity和@TableName的注解，集成好需要的基类，一般业务中常用的是BaseEntity基类，提供了包括ID，创建时间创建人，修改时间修改人等功能字段。
 
@@ -39,7 +39,7 @@
 
 IService 接口中的方法命名遵循了一定的规范，如 get 用于查询单行，remove 用于删除，list 用于查询集合，page 用于分页查询，这样可以避免与 Mapper 层的方法混淆。提供了包括save，saveOrUpdate等等增删改查的功能，[详细文档](https://baomidou.com/guides/data-interface/)
 
-## 2.2 BaseMapper和Iservice
+## 1.2.BaseMapper和Iservice
 :::tip
 [参考博客1](https://blog.csdn.net/weixin_42516475/article/details/130115388)
 [参考博客2](https://zhuanlan.zhihu.com/p/672246605)
@@ -111,7 +111,7 @@ public class ServiceImpl<M extends BaseMapper<T>, T> implements IService<T> {
 3. Service接口继承Iservice，实现Impl
 4. mapper和Service都编写，在Service中引入mapper，使用谁的CRUD，根据场景和自己的心情来选吧
 
-# 3.条件构造器
+# 2.条件构造器
 :::tip
 [参考博客](https://blog.csdn.net/bird_tp/article/details/105587582)
 :::
@@ -163,4 +163,170 @@ QueryWrapper(LambdaQueryWrapper) 和 UpdateWrapper(LambdaUpdateWrapper) 的父�
 :::
 
 业务中常用LambdaWrapper，使用条件表达式获取参数，一方面代码优美，同时可以一定程度上避免SQL注入。工作场景用的eq比较多，详细的条件参考[官方文档](https://baomidou.com/guides/wrapper/)
+
+
+
+# 3.Mybatis切换
+
+:::info 
+
+:information_desk_person: 2025-01-23记录：手写实战的时候，项目的持久层用的是Mybatis，想改成MyBatisPlus，记录遇到的问题，以及解决方案
+
+:::
+
+## 3.1.导入依赖
+
+在主配置模块目录下的pom文件中导入依赖
+
+```xml
+	<dependencies>
+        <!--引入MP-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.3.1</version>
+        </dependency>
+    </dependencies>
+```
+
+修改yml文件的一些配置：
+
+```yaml
+# MyBatis配置
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.dkd.**.domain
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath*:mapper/**/*Mapper.xml
+  # 加载全局的配置文件
+  configLocation: classpath:mybatis/mybatis-config.xml
+  
+# MyBatis-Plus的配置
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  type-aliases-package: com.dkd.**.domain
+  config-location: classpath:mybatis/mybatis-config.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
+```
+
+还有一些配置，参考[官方文档](https://baomidou.com/reference/annotation/)
+
+## 3.2.Config配置类的修改
+
+私以为配置好了就行了，执行save的时候，遇到问题：**Not Found TableInfoCache** ，这个错误信息通常是 MyBatis-Plus 框架在启动时尝试缓存表信息时出现的问题。TableInfoCache是 MyBatis-Plus 框架用于缓存表信息的缓存类。当框架启动时，它会尝试缓存所有的表信息，以便于后续的 CRUD 操作。
+
+**解决**：这个问题出在没有修改Sql会话，MyBatis-Plus应该使用MybatisSqlSessionFactoryBean 而不是 SqlSessionFactoryBean，需要在Config类中进行修改
+
+```java
+
+
+/**
+ * Mybatis支持*匹配扫描包
+ * 
+ * @author Rachel
+ */
+@Configuration
+public class MyBatisConfig
+{
+    @Autowired
+    private Environment env;
+
+    static final String DEFAULT_RESOURCE_PATTERN = "**/*.class";
+
+    public static String setTypeAliasesPackage(String typeAliasesPackage)
+    {
+        
+    }
+
+    public Resource[] resolveMapperLocations(String[] mapperLocations)
+    {
+       
+    }
+
+    @Bean
+    public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception
+    {
+        String typeAliasesPackage = env.getProperty("mybatis.typeAliasesPackage");
+        String mapperLocations = env.getProperty("mybatis.mapperLocations");
+        String configLocation = env.getProperty("mybatis.configLocation");
+        typeAliasesPackage = setTypeAliasesPackage(typeAliasesPackage);
+        VFS.addImplClass(SpringBootVFS.class);
+
+//        final SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
+        final MybatisSqlSessionFactoryBean sessionFactory = new MybatisSqlSessionFactoryBean();
+        sessionFactory.setDataSource(dataSource);
+        sessionFactory.setTypeAliasesPackage(typeAliasesPackage);
+        sessionFactory.setMapperLocations(resolveMapperLocations(StringUtils.split(mapperLocations, ",")));
+        sessionFactory.setConfigLocation(new DefaultResourceLoader().getResource(configLocation));
+        return sessionFactory.getObject();
+    }
+}
+```
+
+
+
+## 3.3.实体类注解
+
+完成上述后，运行U类操作还是会出现无法映射实体类的报错，这是需要在实体类上注解完成映射
+
+```java
+@TableName("sys_user")
+public class User {
+    @TableId
+    private Long id;
+    @TableField("nickname") // 映射到数据库字段 "nickname"
+    private String name;
+    private Integer age;
+    private String email;
+}
+```
+
+此处我的实体类继承了一个BaseEntity，出现了下面这个问题
+
+```shell
+Error updating database. Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'params'. It was either not specified and/or could not be found for the javaType (java.util.Map) : jdbcType (null) combination.Error updating database. Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'params'. It was either not specified and/or could not be found for the javaType (java.util.Map) : jdbcType (null) combination.
+```
+
+这是因为BaseEntity中的一个字段params是Map类型，数据表不存Map对应的字段，这里有两种解决思路：
+
+- 实体类继承的时候，该字段加上注解：`@TableField(exist = false)`
+- 重写`MapTypeHandler.class`，引入注解`@TableField(typeHandler = MapTypeHandler.class)`
+
+```java
+/**
+ * @author Rachel
+ * @date 2025-01-23 10:28
+ * @desciption: mybatis的map处理类
+ * @status 1
+ */
+public class MapTypeHandler extends BaseTypeHandler<Map<String, Object>> {
+
+    @Override
+    public void setNonNullParameter(PreparedStatement preparedStatement, int i, Map<String, Object> stringObjectMap, JdbcType jdbcType) throws SQLException {
+        String jsonString = JSON.toJSONString(stringObjectMap);
+        preparedStatement.setString(i,jsonString);
+    }
+
+    @Override
+    public Map<String, Object> getNullableResult(ResultSet resultSet, String s) throws SQLException {
+        String json = resultSet.getString(s);
+        return JSON.parseObject(json, Map.class);
+    }
+
+    @Override
+    public Map<String, Object> getNullableResult(ResultSet resultSet, int i) throws SQLException {
+        String json = resultSet.getString(i);
+        return JSON.parseObject(json, Map.class);
+    }
+
+    @Override
+    public Map<String, Object> getNullableResult(CallableStatement callableStatement, int i) throws SQLException {
+        String json = callableStatement.getString(i);
+        return JSON.parseObject(json,Map.class);
+    }
+
+}
+
+```
 
