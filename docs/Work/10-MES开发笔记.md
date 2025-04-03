@@ -2,7 +2,7 @@
 
 ## 1.MES系统
 
-**制造执行系统（Manufacturing Execution System，简称MES）** 是一种针对制造业设计的集成型软件系统，其目标在于提高整个生产过程的执行效率、协调各个生产阶段、实时监控生产活动并提供详尽的生产数据。MES系统在现代制造环境中充当关键角色，帮助企业实现更高水平的生产效能，更有效地满足市场需求。
+**制造执行系统（Manufacturing Execution System，简称MES**是一种针对制造业设计的集成型软件系统，其目标在于提高整个生产过程的执行效率、协调各个生产阶段、实时监控生产活动并提供详尽的生产数据。MES系统在现代制造环境中充当关键角色，帮助企业实现更高水平的生产效能，更有效地满足市场需求。
 
 MES系统作为一个整合性的解决方案，涵盖了从订单接收、生产计划、生产执行到产品交付等多个生产阶段，主要负责**生产什么、如何生产、生产了什么**等问题。其核心目标是通过协调和优化这些生产活动，确保企业能够以最有效的方式生产高质量的产品。
 
@@ -158,3 +158,25 @@ REP_CODE表中通过REP_CODE获取到RS_SQL，即可动态配置SQL并且执行�
 
 - 选择管理员用户组
 - 权限中找到刚刚加入的作业打勾
+- 注销账号重新登陆
+
+## 4.新MES作业配置
+
+- FinalShell连接服务器
+- 上传到：/usr/sap/MEP/J00/j2ee/cluster/apps/tb.com/apps~ear/servlet_jsp/tb-mes/root/com/tb
+
+**作业配置：**
+
+![image-20250403094507143](https://raw.githubusercontent.com/Rachel1771/Rachel-NoteBook-Img/main/rachel-notebook/image-20250403094507143.png)
+
+**在作业组中选择要放到哪个菜单下：**
+
+![image-20250403094456319](https://raw.githubusercontent.com/Rachel1771/Rachel-NoteBook-Img/main/rachel-notebook/image-20250403094456319.png)
+
+- 路径这样配置：`%PROTOCOL%://%SERVER%:%PORT%/tb-mes/xxxxxxxxxx(代码中的路径)`
+
+**用户组配置：**
+
+全选作业：
+
+![image-20250403094443043](https://raw.githubusercontent.com/Rachel1771/Rachel-NoteBook-Img/main/rachel-notebook/image-20250403094443043.png)
