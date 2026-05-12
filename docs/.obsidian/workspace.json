@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7e1a5f4d604e995a",
+        "id": "2aa4fd9566fdfa1f",
         "type": "tabs",
         "children": [
           {
-            "id": "ae57c536fb4618ae",
+            "id": "2da4440716e66dbf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/13-打印配置.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "13-打印配置"
+              "title": "新标签页"
             }
           }
         ]
@@ -34,18 +30,6 @@
         "id": "01821068018542f5",
         "type": "tabs",
         "children": [
-          {
-            "id": "a1b1081564359f4d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
           {
             "id": "07550fd5753e265e",
             "type": "leaf",
@@ -72,8 +56,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "85c9f96e81b53091",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -160,6 +158,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -169,11 +168,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1b1081564359f4d",
+  "active": "2da4440716e66dbf",
   "lastOpenFiles": [
+    "Math/2.深度学习/2-神经网络反馈.md",
+    "Math/2.深度学习/2-神经网络反馈/image-20260512140336071.png",
+    "Math/2.深度学习/2-神经网络反馈/image-20260512140205054.png",
+    "Math/2.深度学习/2-神经网络反馈/image-20260512140134762.png",
+    "Math/2.深度学习/2-神经网络反馈/image-20260512110131537.png",
+    "Math/2.深度学习/2-神经网络反馈",
+    "Math/2.深度学习/1-图像分割评价指标.md",
+    "Math/1.机器学习/1-机器学习初入.md",
+    "未命名.base",
+    "未命名.md",
+    "未命名 2.base",
+    "未命名 1.base",
+    "notes.md",
+    "Work/13-打印配置.md",
     "Work/12-条码打印&存储过程.md",
     "Work/12-条码打印(存储过程学习).md",
-    "Work/13-打印配置.md",
     "Work/9-通用放行配置.md",
     "Work/8-锡膏后端.md",
     "Work/7-拼板过站接口修改.md",
@@ -188,15 +200,9 @@
     "2025-11-03.md",
     "Foundation/1.计算机组成原理/2-数组表示和运算.md",
     "Foundation/2.数据结构/5-树、森林的性质总结.md",
-    "Math/2.深度学习/1-图像分割评价指标.md",
     "Math/1.机器学习/1-损失函数&学习率.md",
     "Web/5.JavaStudy/2-MyBatisPlus使用.md",
     "Web/1.部署Docaururs/2-NoteBook的图片托管.md",
-    "Web/3.Redis/1-Redis安装&&十大数据.md",
-    "Web/1.部署Docaururs/1-部署Docsaururs.md",
-    "Web/5.JavaStudy/1-Web国际化.md",
-    "Web/intro.md",
-    "Web/2.软件工程课设/接口文档.md",
     "Pasted image 20240220183243.png",
     "Work/锡膏后端/index.html",
     "Work/锡膏后端",
@@ -204,18 +210,10 @@
     "Work/拼板过站接口修改",
     "Math/DeepLearning/图像分割评价指标/index.html",
     "Math/DeepLearning/图像分割评价指标",
-    "Math/DeepLearning",
-    "Foundation/数据库/数据库系统概论复试/index.html",
-    "Foundation/数据库/数据库系统概论复试",
-    "Foundation/数据库",
     "Foundation/imgs/算法复杂度对比图.png",
     "Foundation/imgs/others/题目1.png",
     "Foundation/imgs/others/答案一.png",
     "Foundation/imgs/others/编码2.png",
-    "Foundation/imgs/others/编码1.png",
-    "Pasted image 20230514104249.png",
-    "Foundation/imgs/others/编码3.png",
-    "071A8E79.png",
-    "7F9185BE.png"
+    "Foundation/imgs/others/编码1.png"
   ]
 }
